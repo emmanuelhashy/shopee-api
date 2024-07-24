@@ -10,7 +10,7 @@ import cors from "cors";
 // Define the CORS options
 const corsOptions = {
   credentials: true,
-  origin: ["http://localhost:3000"], // Whitelist the domains you want to allow
+  origin: ["http://localhost:3000", "https://shopeefai.netlify.app"], // Whitelist the domains you want to allow
 };
 
 const app = express();
